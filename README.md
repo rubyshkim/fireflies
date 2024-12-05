@@ -1,6 +1,9 @@
 MATLAB program to visualize simulations of firefly model by Ermentrout and Rinzel (1984) for teaching purposes.
 
-The ODEs are given by $$\frac{d\theta_1}{dt}=\Omega$$ and $$\frac{d\theta_2}{dt} = \omega + A\sin(\theta_1-\theta_2)$$, where $$A>0$$.
+The ODEs are given by 
+$$\frac{d\theta_1}{dt} =\Omega$$ and $$\frac{d\theta_2}{dt} = \omega + A\sin(\theta_1-\theta_2)$$, where $$A>0$$. 
+
+$\theta_1$ is the phase of a periodic light stimulus and $\theta_2$ is the phase of a firefly's flashing.
 
 $$\omega$$ is fixed, and $$\Omega$$ and $$A$$ can be adjusted with a slider.
 
